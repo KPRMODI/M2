@@ -32,3 +32,21 @@ document.body.appendChild(messageElement); // Append the new <p> to body
 document.body.style.color = "green"
 document.body.style.backgroundColor = "black"
 document.body.style.fontSize = "1.6em"
+
+// EVENT LISTENERS // 
+document.getElementById("myH1").addEventListener("click", function(){
+    // function details go here
+    document.getElementById("myH1").style.color = "red"
+})
+
+document.getElementById("myH1").addEventListener("mouseover",function(){
+    document.getElementById("myH1").style.color = "blue"
+})
+
+document.getElementById("myParagraph").addEventListener("dblclick",function(){
+    document.getElementById("myParagraph").style.fontSize = "2.2em"
+})
+
+document.getElementById("button").addEventListener("click",function(){
+})
+    document.getElementById("myParagraph").style.color = "orange"
